@@ -24,10 +24,10 @@ const Footer = () => {
     Wij zijn er voor en door zorgverleners.</p>
                         </div>
                         <div className={styles.social}>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>LinkedIn</li>
                         </div>
                     </div>
                     <div className={styles.col}>
@@ -58,7 +58,14 @@ const Footer = () => {
                         <p>info@darehealthinnovation.nl</p>
                         <p>Voor de pers</p>
                     </div>
-                </div> 
+                </div>
+                {/* <Routes>
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/diensten" element={<Diensten />} />
+                    <Route path="/nieuves" element={<Nieuws />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes> */}
             </BrowserRouter>
             <div className={styles.copyright}>
                 <p>© 2022 DA-RE Health Innovation | Privacybeleid |</p>

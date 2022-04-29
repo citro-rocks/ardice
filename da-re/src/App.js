@@ -3,7 +3,10 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import styles from './App.module.css';
 import logo from './assets/logo.png';
 
+// Components
 import ContactForm from './components/ContactForm';
+import ContactButton from './UX/ContactButton';
+import Footer from './components/Footer';
 
 // Pages
 import Home from "./Pages/Home";
@@ -11,14 +14,15 @@ import Diensten from "./Pages/Diensten";
 import Nieuws from "./Pages/Nieuws";
 import Team from "./Pages/Team";
 import Contact from "./Pages/Contact";
-import Footer from './components/Footer';
 
 function App() {
   return (
     <div className={styles.App}>
       <BrowserRouter>
-        <nav className={styles.header}>
-            <img src={logo} alt="logo" />
+        <nav className={styles.navbar}>
+            <div className={styles.logo}>
+              <img src={logo} alt="logo" />
+            </div>
             <div className={styles.links}>
               <Link to="/">Home</Link>
               <Link to="/diensten">Diensten</Link>
@@ -26,9 +30,9 @@ function App() {
               <Link to="/team">Team</Link>
               <Link to="/contact">Contact</Link>
             </div>
-            <button className={styles.button}>
-              <Link to="/contact">CONTACT</Link>
-            </button>
+            <div>
+              <ContactButton />
+            </div>
         </nav>
           <Routes>
             <Route path="/" element={<Home />} />

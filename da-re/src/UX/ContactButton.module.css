@@ -1,0 +1,20 @@
+.button {
+    border: solid 2px #040f33;
+    padding: 10px 15px 10px 15px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #F4A100;
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #040f33;
+    font-size: 24px;
+}
+
+.button a:hover {
+    color: #fcfcfc;
+}
