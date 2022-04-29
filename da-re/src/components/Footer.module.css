@@ -1,0 +1,77 @@
+.footer {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    background-color: #010821;
+}
+
+li {
+    color: aliceblue;
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p {
+    color: aliceblue;
+}
+
+.row {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.colone {
+    display: block;
+    width: 40%;
+}
+
+.footerlogo {
+    display: block;
+}
+
+.footerlogo h1 {
+    color: aliceblue;
+}
+
+.footerlogo p {
+    color: aliceblue;
+}
+
+.description {
+    display: flexbox;
+    padding-right: 5%;
+}
+
+.description p {
+    color: aliceblue;
+    word-break: break-all;
+}
+
+.col {
+    display: flexbox;
+    width: 15%;
+}
+
+.mainlink {
+    color: #F4A100;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.copyright {
+    display: inline;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.copyright p {
+    color: aliceblue;
+}

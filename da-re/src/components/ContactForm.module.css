@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+.form {
+    display: flex;
+    background-image: url(../assets/contact-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form h2 {
+    color: #EC6D00;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.form p {
+    color: #474747;
+}
+
+.inputs {
+    width: 60%;
+    padding: 0;
+}
+
+.inputs input {
+    width: 50%;
+}
+
+.toprow {
+    width: 100%;
+    display: flex;
+}
+
+.toprow input {
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.midrow {
+    width: 100%;
+    display: flex;
+}
+
+.midrow input {
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bottomrow {
+    width: 100%;
+    display: flex;
+}
+
+.bottomrow input {
+    border: #1c1c1c solid 1px;
+    height: 150px;
+    width: 99%;
+    margin-bottom: 3%;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+}
+
+.contact p {
+    font-size: 16px;
+    padding-right: 2%;
+}
+
+.contact button {
+    text-transform: capitalize;
+}
