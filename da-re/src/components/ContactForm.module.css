@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
 .form {
-    display: flex;
+    display: block;
     background-image: url(../assets/contact-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: block;
-    width: 100%;
     height: fit-content;
     padding-left: 10%;
     padding-right: 10%;
