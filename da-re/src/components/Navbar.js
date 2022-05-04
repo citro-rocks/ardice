@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/fi";
 
 // CSS
 import styles from "./Navbar.module.css";
@@ -10,6 +11,7 @@ import logo from "../assets/logo.png"
 // Components
 import ContactButton from "../UX/ContactButton";
 
+// TAKE A LOOK https://codesandbox.io/s/react-responsive-nav-3n3lu?file=/src/components/Navbar.js
 
 // Pages
 import Home from "../Pages/Home";
@@ -23,7 +25,9 @@ const Navbar = () => {
         <BrowserRouter>
             <nav className={styles.navbar}>
                 <div className={styles.logo}>
-                    <img src={logo} alt="logo" />
+                    <Link to="/home">
+                        <img src={logo} alt="logo" />
+                    </Link>
                 </div>
                 <ul className={styles.links}>
                     <Link to="/">Home</Link>
@@ -37,14 +41,12 @@ const Navbar = () => {
                 </div>
                 <div className={styles.dropdown}>
                     <div class={styles.burger}>
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
                     </div>
                 </div>
             </nav>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="diensten" element={<Diensten />} />
                 <Route path="nieuves" element={<Nieuws />} />
                 <Route path="team" element={<Team />} />

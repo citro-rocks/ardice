@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import headerimg from "../assets/home-header-img.jpg";
 import OnzeDinsten from "../components/OnzeDiensten";
 import ContactButton from "../UX/ContactButton";
+import Nieuwsfeed from "../components/Nieuwsfeed";
 
 
 const Home = (props) => {
@@ -22,6 +23,7 @@ const Home = (props) => {
                 </div>
             </header>
             <OnzeDinsten />
+            <Nieuwsfeed />
         </div>
     );
 }
