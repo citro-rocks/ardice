@@ -4,6 +4,7 @@ import styles from "./Nieuwsfeed.module.css";
 // Assets
 import nieuws_1 from "../assets/nieuws_1.png";
 import nieuws_2 from "../assets/nieuws_2.png";
+import { Link } from 'react-router-dom';
 
 const Nieuwsfeed = () => {
   return (
@@ -27,7 +28,7 @@ const Nieuwsfeed = () => {
                 'Wat doen jullie dan bij DA-RE?',  is een vraag die wij vaak krijgen.</p>
               </div>
               <div className={styles.nieuws_button}>
-                <button>MEER</button>
+                <li>Meer</li>
               </div>
           </div>
       </div>
@@ -46,7 +47,7 @@ const Nieuwsfeed = () => {
                 <p>Friese zorgorganisaties proberen hun medewerkers voor te bereiden op een eventuele tweede coronagolf. Daarbij worden nieuwe technieken ingezet, zoals een virtual reality-training. ,,Kijk naar het gele stipje. Heb je dat? En selecteer daarna met je ogen een antwoord op de vraag die je wordt gesteld. Daarna gaat het vanzelf.”</p>
               </div>
               <div className={styles.nieuws_button}>
-                <button>MEER</button>
+                <li>Meer</li>
               </div>
           </div>
       </div>
