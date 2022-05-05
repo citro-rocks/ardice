@@ -52,7 +52,9 @@ const Nieuwsfeed = () => {
           </div>
       </div>
       <div className={styles.meer_news}>
-        <li>Meer Nieus</li>
+        <li>
+            <h3>meer news</h3>
+        </li>
       </div>
     </div>
   )

@@ -73,17 +73,13 @@
 .meer_news {
     position: relative;
     display: grid;
-    width: 30%;
-    padding-left: 50%;
-    justify-items: center;
-    width: 10%;
+    align-items: center;
 }
 
-.meer_news li {
+.meer_news li h3 {
     text-align: center;
     font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: underline;
     color: #040F33;
-    border: 1px solid #040F33;
-    padding: 3%;
-    margin: 3%;
 }
