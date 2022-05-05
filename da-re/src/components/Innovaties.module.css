@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+.innovaties_section {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: fit-content;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    align-items: stretch;
+    border: #EC6D00 solid 5px;
+    margin: 2% 10% 2% 10%;
+    padding: 2%;
+}
+
+.text {
+    position: relative;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-row-gap: 1em;
+    align-items: stretch;
+    justify-items: start;
+}
+
+.quote {
+    font-family: 'Montserrat';
+}
+
+.quote h2 {
+    color: #EC6D00;
+}
+
+.quote p {
+    color: #FCFCFC;
+}
+
+.image {
+    background: url(../assets/innovaties.png);
+}

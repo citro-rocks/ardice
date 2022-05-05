@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 20% 70% 10%;
+    grid-row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 20% 10% 20%;
+}
+
+.title {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+
+.title h2 {
+    font-family: 'Montserrat';
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    color: #EC6D00;
+    text-transform: uppercase;
+}
+
+.title h3 {
+    font-family: 'Montserrat';
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    color: #EC6D00;
+}
+
+.linkbox {
+    position: relative;
+    display: grid;
+    align-items: end;
+    height: 90vh;
+    background: url('../assets/podcast.png') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links {
+    position: relative;
+    display: grid;
+    height: 30%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    background: rgb(244, 161, 0);
+    background: linear-gradient(360deg, rgba(244, 163, 0, 0.517) 0%, rgba(231, 60, 40, 1) 100%);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.spotify {
+    background: url('../assets/spotify.png') center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 5%;
+}
+
+.youtube {
+    background: url('../assets/youtube.png') center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 5%;
+}
+
+.clicktoview li a {
+    position: relative;
+    display: grid;
+    text-align: center;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #040F33;
+    align-items: center;
+    justify-content: center;
+}

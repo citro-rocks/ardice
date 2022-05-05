@@ -4,6 +4,8 @@ import headerimg from "../assets/home-header-img.jpg";
 import OnzeDinsten from "../components/OnzeDiensten";
 import ContactButton from "../UX/ContactButton";
 import Nieuwsfeed from "../components/Nieuwsfeed";
+import Podcast from "../components/Podcast";
+import Innovaties from "../components/Innovaties";
 
 
 const Home = (props) => {
@@ -24,6 +26,8 @@ const Home = (props) => {
             </header>
             <OnzeDinsten />
             <Nieuwsfeed />
+            <Podcast />
+            <Innovaties />
         </div>
     );
 }

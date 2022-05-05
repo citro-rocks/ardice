@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Nieuwsfeed = () => {
   return (
-    <div className={styles.nieuws_sction}>
+    <div className={styles.nieuws_section}>
       <div className={styles.main_title}>
         <h2>NIEUWS</h2>
       </div>
@@ -53,7 +53,7 @@ const Nieuwsfeed = () => {
       </div>
       <div className={styles.meer_news}>
         <li>
-            <h3>meer news</h3>
+            <a href="">meer news</a>
         </li>
       </div>
     </div>
