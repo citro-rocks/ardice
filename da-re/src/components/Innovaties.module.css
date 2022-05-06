@@ -5,19 +5,26 @@
     max-width: 100%;
     height: fit-content;
     align-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+.innovaties_section::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 550px;
+    background-color: #040F33;
+    transform: skew(0deg, 6deg);
+    position: absolute;
 }
 
 .container {
     position: relative;
     display: grid;
-    height: auto;
+    height: 60vh;
     grid-template-columns: 50% 50%;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     align-items: stretch;
-    border: #EC6D00 solid 5px;
     margin: 2% 10% 2% 10%;
     padding: 2%;
 }
@@ -29,20 +36,36 @@
     grid-row-gap: 1em;
     align-items: stretch;
     justify-items: start;
+    padding: 2%;
+    margin: 2%;
 }
 
 .quote {
     font-family: 'Montserrat';
 }
 
-.quote h2 {
+.quote h3 {
+    font-size: 32px;
     color: #EC6D00;
 }
 
 .quote p {
+    font-size: 21px;
     color: #FCFCFC;
 }
 
 .image {
+    position: relative;
     background: url(../assets/innovaties.png);
+}
+
+.image:before {
+    content: '';
+    position: absolute;
+    float: right;
+    left: -30px;
+    bottom: 30px;
+    border: #EC6D00 solid 4px;
+    width: 100%;
+    height: 100%;
 }

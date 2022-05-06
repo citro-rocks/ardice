@@ -6,13 +6,14 @@ import ContactButton from "../UX/ContactButton";
 import Nieuwsfeed from "../components/Nieuwsfeed";
 import Podcast from "../components/Podcast";
 import Innovaties from "../components/Innovaties";
+import Team from "../components/Team";
 
 
 const Home = (props) => {
     return (
         <div>
             <header className={styles.header}>
-                <div className={styles.headerbg}><span></span></div>
+                {/* <div className={styles.headerbg}><span></span></div> */}
                 <div  className={styles.imagebox}>
                     <img src={headerimg} alt="" />
                 </div>
@@ -28,6 +29,7 @@ const Home = (props) => {
             <Nieuwsfeed />
             <Podcast />
             <Innovaties />
+            <Team />
         </div>
     );
 }

@@ -5,7 +5,6 @@ import styles from "./OnzeDiensten.module.css";
 const OnzeDinsten = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.skewdbg}><span></span></div>
             <div className={styles.title}>
                 <h2>ONZE DIENSTEN</h2>
                 <p>Wij werpen een blik in de toekomst en gaan daarom een stap verder. DA-RE biedt de steeds complexere zorgwereld innovatieve oplossingen op maat; oplossingen die écht impact maken. Wij zijn er voor en door zorgverleners.</p>
