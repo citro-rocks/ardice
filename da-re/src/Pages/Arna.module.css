@@ -19,6 +19,7 @@
 }
 
 .imagebox img {
+    background-image: url("../assets/arna_header_img.png");
     float: right;
     width: 80%;
     height: 80%;

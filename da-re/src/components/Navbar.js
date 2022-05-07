@@ -15,7 +15,7 @@ import ContactButton from "../UX/ContactButton";
 
 // Pages
 import Home from "../Pages/Home";
-import Diensten from "../Pages/Diensten";
+import Arna from "../Pages/Arna";
 import Nieuws from "../Pages/Nieuws";
 import Team from "../Pages/Team";
 import Contact from "../Pages/Contact";
@@ -47,7 +47,7 @@ const Navbar = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="diensten" element={<Diensten />} />
+                <Route path="diensten" element={<Arna />} />
                 <Route path="nieuves" element={<Nieuws />} />
                 <Route path="team" element={<Team />} />
                 <Route path="contact" element={<Contact />} />

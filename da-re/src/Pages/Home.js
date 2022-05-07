@@ -1,6 +1,9 @@
 import React from "react";
+// CSS
 import styles from "./Home.module.css";
+// Assets
 import headerimg from "../assets/home-header-img.jpg";
+// Components
 import OnzeDinsten from "../components/OnzeDiensten";
 import ContactButton from "../UX/ContactButton";
 import Nieuwsfeed from "../components/Nieuwsfeed";
@@ -13,7 +16,6 @@ const Home = (props) => {
     return (
         <div>
             <header className={styles.header}>
-                {/* <div className={styles.headerbg}><span></span></div> */}
                 <div  className={styles.imagebox}>
                     <img src={headerimg} alt="" />
                 </div>
@@ -34,4 +36,4 @@ const Home = (props) => {
     );
 }
 
-export default Home
+export default Home;
