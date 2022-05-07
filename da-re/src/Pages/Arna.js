@@ -21,6 +21,11 @@ const Arna = () => {
     card: {
       title : "Waarom ARNA",
       content: "ARNA is schaalbaar en daarom voor iedere organisatie haalbaar! Durft u de eerste stap richting de toekomst te zetten? Dan kijken wij graag samen met jou naar de toepassing van ARNA binnen uw organisatie."
+    },
+
+    quote_card: {
+      quote: "Met de ARNA-app vind je snel en overzichtelijk alle informatie van de meest gebruikte hulpmiddelen in de zorg!",
+      author: "Jolanda, verpleegkundige"
     }
 
   }

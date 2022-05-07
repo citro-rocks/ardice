@@ -4,7 +4,7 @@ import styles from "./Nieuwsfeed.module.css";
 // Assets
 import nieuws_1 from "../assets/nieuws_1.png";
 import nieuws_2 from "../assets/nieuws_2.png";
-import { Link } from 'react-router-dom';
+
 
 const Nieuwsfeed = () => {
   return (
