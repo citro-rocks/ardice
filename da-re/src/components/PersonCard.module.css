@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
 .container {
-    padding: 0% 20% 10% 20%;
+    padding: 0% 15% 10% 15%;
 }
 
 .grid {
@@ -21,23 +21,38 @@
 }
 
 .person_img {
-    position: relative;
     display: grid;
-    grid-template-rows: 70% 30%;
+    position: relative;
+    grid-template-rows: 75% 25%;
+    align-items: start;
+}
+
+.person_img img {
+    position: relative;
+    width: auto;
     border: 1px solid #474747;
 }
 
 .person_name {
     position: relative;
     display: grid;
-    grid-template-rows: 70% 30%;
+    align-items: end;
+    text-align: center;
+    color: aliceblue;
+    background-color: #040F33;
+    grid-template-rows: 50% 50%;
 }
 
 .description {
-    position: relative;
-    display: grid;
+    position: flex;
+    grid-template-columns: auto;
     text-align: left;
     word-wrap: break-word;
+    height: fit-content;
+}
+
+.description p {
+    color: #474747;
 }
 
 .social_links {
@@ -45,4 +60,9 @@
     display: grid;
     border: 1px solid #474747;
     grid-template-columns: 20% 20% 60%;
+}
+
+.social_links li {
+    color: #474747;
+    text-align: start;
 }
