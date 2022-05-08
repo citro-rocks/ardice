@@ -22,19 +22,19 @@
     z-index: -1;
 }
 
-.title {
+.subtitle {
     padding: 5%;
     position: relative;
 }
 
-.title h2 {
+.subtitle h2 {
     font-family: 'Montserrat';
     font-size: 2em;
     color: #EC6D00;
     text-transform: uppercase;
 }
 
-.title p {
+.subtitle p {
     color: #040F33;
 }
 
@@ -110,7 +110,7 @@
 }
 
 @media (min-width: 600px) {
-    .title {
+    .subtitle {
         padding: 3% 20% 3% 20%;
     }
     .grid {

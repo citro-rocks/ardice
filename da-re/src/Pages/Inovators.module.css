@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+.header {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(244, 161, 0, 1) 0%, rgba(231, 60, 40, 1) 100%);
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    z-index: -1;
+}
+
+.imagebox {
+    position: relative;
+    padding-top: 10%;
+    float: right;
+    transform: skewY(6deg);
+}
+
+.imagebox img {
+    float: right;
+    width: 80%;
+    height: 80%;
+}
+
+.textbox::after {
+    content: '';
+    position: absolute;
+    width: 94%;
+    height: 30vh;
+    margin-left: -5%;
+    margin-top: -20%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #040F33;
+    border-bottom: rgba(231, 60, 40, 1) 5px solid;
+    border-left: rgba(231, 60, 40, 1) 5px solid;
+    border-right: rgba(231, 60, 40, 1) 5px solid;
+    box-shadow: 0px 10px 0px 15px #040F33;
+    transform: skew(0deg, -6deg);
+    z-index: -1;
+}
+
+.textbox {
+    position: relative;
+    width: 60%;
+    margin-left: 11%;
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #040F33;
+    border-top: rgba(231, 60, 40, 1) 5px solid;
+    border-left: rgba(231, 60, 40, 1) 5px solid;
+    border-right: rgba(231, 60, 40, 1) 5px solid;
+    box-shadow: 0px -10px 0px 15px #040F33;
+    transform: skew(0deg, 6deg);
+    z-index: initial;
+}
+
+.subtitle {
+    padding: 5%;
+    position: relative;
+}
+
+.subtitle h2 {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    color: #EC6D00;
+    text-transform: uppercase;
+}
+
+.subtitle p {
+    color: #040F33;
+}

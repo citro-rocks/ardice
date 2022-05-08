@@ -10,6 +10,7 @@ import Nieuwsfeed from "../components/Nieuwsfeed";
 import Podcast from "../components/Podcast";
 import Innovaties from "../components/Innovaties";
 import Team from "../components/Team";
+import PersonCard from "../components/PersonCard";
 
 
 const Home = (props) => {
@@ -32,6 +33,7 @@ const Home = (props) => {
             <Podcast />
             <Innovaties />
             <Team />
+            <PersonCard />
         </div>
     );
 }
