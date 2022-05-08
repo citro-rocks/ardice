@@ -1,0 +1,14 @@
+https://www.pluralsight.com/guides/fetch-data-from-a-json-file-in-a-react-app
+https://www.golangprograms.com/display-json-data-in-reactjs.html
+https://javascript.plainenglish.io/render-react-cards-and-images-dynamically-2387434e809d
+
+https://www.youtube.com/watch?v=CN0OTAkUD9c
+
+https://www.youtube.com/watch?v=_gSmfgX89-8&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&index=4
+https://dev.to/cooljasonmelton/build-this-cool-dropdown-menu-with-react-react-router-and-css-39ln
+https://www.youtube.com/watch?v=IF6k0uZuypA
+https://dev.to/ziratsu/code-a-responsive-navbar-with-react-45le
+https://codesandbox.io/s/react-responsive-nav-3n3lu?file=/src/components/Navbar.js
+https://blog.logrocket.com/create-responsive-navbar-react-css/
+https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe
+https://maxinterview.com/code/get-an-image-from-an-array-react-4C2BBEEBB439536/
