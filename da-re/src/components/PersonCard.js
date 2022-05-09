@@ -1,6 +1,9 @@
 import React from 'react'
 // CSS
 import styles from "./PersonCard.module.css";
+// Assetes
+import in_icon from "../assets/in_icon.png";
+import mail_icon from "../assets/icon_mail.png"
 
 import inovators from '../inovators/Inovators_db';
 
@@ -21,8 +24,16 @@ const PersonCard = () => {
                 </div>
                 <div className={styles.social_links}>
                     <ul>
-                        <li>{item.ln}</li>
-                        <li>{item.mail}</li>
+                        <li>
+                            <a href={item.in}>
+                                <img src={in_icon} alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href={item.mail}>
+                                <img src={mail_icon} alt="" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

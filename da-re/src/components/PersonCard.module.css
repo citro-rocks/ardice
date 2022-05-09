@@ -68,10 +68,6 @@ body {
 .social_links {
     position: relative;
     display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.social_links li {
-    color: #474747;
-    text-align: start;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: start;
 }
