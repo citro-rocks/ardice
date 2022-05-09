@@ -3,7 +3,7 @@ import React from 'react'
 // CSS
 import styles from "./Inovators.module.css";
 
-const Innovators = () => {
+const Inovators = () => {
   return (
     <div>
         <header className={styles.header}>
@@ -29,4 +29,4 @@ const Innovators = () => {
   )
 }
 
-export default Innovators
+export default Inovators

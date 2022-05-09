@@ -20,8 +20,6 @@
 
 .imagebox img {
     float: right;
-    width: 80%;
-    height: 80%;
 }
 
 .textbox::after {
