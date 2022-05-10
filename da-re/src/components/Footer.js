@@ -2,15 +2,29 @@ import React from "react";
 import { BrowserRouter, Link } from 'react-router-dom'
 import styles from "./Footer.module.css";
 
-//Pages
-// import Home from "../Pages/Home";
-// import Diensten from "../Pages/Diensten";
-// import Nieuws from "../Pages/Nieuws";
-// import Team from "../Pages/Team";
-// import Contact from "../Pages/Contact";
+// Pages
+import Home from "../Pages/Home";
+import Arna from "../Pages/Arna";
+import Nieuws from "../Pages/Nieuws";
+import Team from "../Pages/Team";
+import Contact from "../Pages/Contact";
+
+// Assets 
+import facebook from "../assets/facebook_icon.png";
+import twitter from "../assets/twitter_icon.png";
+import instagram from "../assets/instagram_icon.png";
+import linkedin from "../assets/linkedin_icon.png";
+
 
 const Footer = () => {
-    return (
+    const footerItems = {
+        facebook: "https://www.facebook.com/darehealthinnovation/",
+        twitter: "https://twitter.com/darehealthinno1",
+        instagram: "https://www.instagram.com/dare_healthinnovation/?utm_medium=copy_link",
+        linkedin: "https://www.linkedin.com/company/da-re-health-innovation/" 
+    };
+
+     return (
         <div className={styles.footer}>
             <BrowserRouter>
                 <div className={styles.row}>
@@ -24,36 +38,36 @@ const Footer = () => {
     Wij zijn er voor en door zorgverleners.</p>
                         </div>
                         <div className={styles.social}>
-                            <li>Facebook</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
-                            <li>LinkedIn</li>
+                            <li><a href=""><img src={facebook} alt="" /></a></li>
+                            <li><a href=""><img src={twitter} alt="" /></a></li>
+                            <li><a href=""><img src={instagram} alt="" /></a></li>
+                            <li><a href=""><img src={linkedin} alt="" /></a></li>
                         </div>
                     </div>
                     <div className={styles.col}>
-                        <li className={styles.mainlink}><Link to="/home">Home</Link></li>
+                        <Link to="/home" className={styles.mainlink}>Home</Link>
                         <li>Onze Diensten</li>
                         <li>Nieuws</li>
                         <li>Team</li>
                     </div>
                     <div className={styles.col}>
-                        <li className={styles.mainlink}><Link to="/diensten">Diensten</Link></li>
+                        <Link to="/diensten" className={styles.mainlink}>Diensten</Link>
                         <li>Arna</li>
                         <li>VR Bieb</li>
                         <li>Design Labs</li>
                         <li>Ardice</li>
                     </div>
                     <div className={styles.col}>
-                        <li className={styles.mainlink}><Link to="/nieuves">Nieuws</Link></li>
+                        <Link to="/nieuves" className={styles.mainlink}>Nieuws</Link>
                         <li>Nieuws 01</li>
                         <li>Nieuws 02</li>
                     </div>
                     <div className={styles.col}>
-                        <li className={styles.mainlink}><Link to="/team">Team</Link></li>
+                        <Link to="/team" className={styles.mainlink}>Team</Link>
                         <li>The Team</li>
                     </div>
                     <div className={styles.col}>
-                        <li className={styles.mainlink}><Link to="/contact">Contact</Link></li>
+                        <Link to="/contact" className={styles.mainlink}>Contact</Link>
                         <p>+31 (0)85 401 04 05</p>
                         <p>info@darehealthinnovation.nl</p>
                         <p>Voor de pers</p>
