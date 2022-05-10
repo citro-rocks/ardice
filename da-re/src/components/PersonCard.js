@@ -23,22 +23,16 @@ const PersonCard = () => {
                     </div>
                 </div>
                 <div className={styles.social_links}>
-                    <ul>
-                        <div>
-                            <li>
-                                <a href={item.in}>
-                                    <img src={in_icon} alt="" />
-                                </a>
-                            </li>
-                        </div>
-                        <div>
-                            <li>
-                                <a href={item.mail}>
-                                    <img src={mail_icon} alt="" />
-                                </a>
-                            </li>
-                        </div>
-                    </ul>
+                    <li>
+                        <a href={item.in}>
+                            <img src={in_icon} alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href={item.mail}>
+                            <img src={mail_icon} alt="" />
+                        </a>
+                    </li>
                 </div>
             </div>
         </div>
