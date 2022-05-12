@@ -1,7 +1,8 @@
 .footer {
-    display: block;
+    display: grid;
+    position: relative;
+    grid-template-rows: 80% 20%;
     width: 100%;
-    height: fit-content;
     background-color: #010821;
 }
 
@@ -20,20 +21,18 @@ p {
 }
 
 .row {
-    display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    display: grid;
+    position: relative;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    height: fit-content;
 }
 
-.colone {
-    display: block;
-    width: 40%;
-}
-
-.footerlogo {
-    display: block;
+.col_one {
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 5%;
 }
 
 .footerlogo h1 {
@@ -44,19 +43,23 @@ p {
     color: aliceblue;
 }
 
-.description {
-    display: flexbox;
-    padding-right: 5%;
-}
-
 .description p {
     color: aliceblue;
     word-break: break-all;
 }
 
-.col {
-    display: flexbox;
-    width: 15%;
+.social {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60%;
+}
+
+.col_two {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 5%;
 }
 
 .mainlink {

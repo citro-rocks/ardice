@@ -3,18 +3,18 @@
     position: relative;
     display: grid;
     align-content: stretch;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 30% 40% 30%;
     grid-column-gap: 1em;
-    grid-row-gap: 1em;
     padding: 1% 10% 1% 10%;
     background-color: white;
+    height: 100px;
 }
 
 .logo {
     position: relative;
     display: grid;
-    justify-self: start;
+    align-items: center;
+    justify-items: start;
 }
 
 .links {
@@ -24,7 +24,7 @@
     align-content: space-evenly;
     cursor: pointer;
     justify-self: stretch;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 1em;
     font-family: 'Montserrat';
     font-weight: 400;

@@ -8,10 +8,9 @@ import mail_icon from "../assets/icon_mail.png"
 import inovators from '../inovators/Inovators_db';
 
 const PersonCard = () => {
-    console.log(inovators);
     const listItems = inovators.map((item) => 
         <div>
-            <div className={styles.card}  key={item.id}>
+            <div className={styles.card} key={item.id}>
                 <div className={styles.card_img}>
                     <img src={item.image} alt="" />
                     <div className={styles.person_name}>
