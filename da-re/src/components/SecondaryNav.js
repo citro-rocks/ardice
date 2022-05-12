@@ -1,14 +1,13 @@
-import React from "react";
+import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
-// CSS
-import styles from "./MainNav.module.css";
+import ContactButton from '../UX/ContactButton';
 
 // Assests
 import logo from "../assets/logo.png"
 
-// Components
-import ContactButton from "../UX/ContactButton";
+// CSS
+import styles from "./SecondaryNav.module.css";
 
 // Pages
 import Home from "../Pages/Home";
@@ -19,12 +18,12 @@ import VrBieb from '../Pages/VrBieb';
 import DesignLabs from '../Pages/DesignLabs';
 import Ardice from '../Pages/Ardice';
 
-const MainNav = () => {
-    return (
-        <div>
-            <BrowserRouter>
-            <Navbar className={styles.navbar} expand="lg">
-                <Container>
+const SecondaryNav = () => {
+  return (
+    <div>
+        <BrowserRouter>
+            <Navbar bg="light" expand="lg">
+                <Container className={styles.navbar}>
                     <Navbar.Brand className={styles.logo}>
                         <div className={styles.logo}>
                             <Link to="/home">
@@ -45,9 +44,9 @@ const MainNav = () => {
                         <Nav.Link as={Link} to="/nieuves">Nieuws</Nav.Link>
                         <Nav.Link as={Link} to="/team">Team</Nav.Link>
                         </Nav>
-                        <div className={styles.button}>
-                            <ContactButton />
-                        </div>
+                            <div className={styles.button}>
+                                <ContactButton />
+                            </div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
@@ -62,8 +61,8 @@ const MainNav = () => {
                     <Route path="team" element={<Team />} />
                 </Routes>
         </BrowserRouter>
-        </div>
-    );
-};
+    </div>
+  )
+}
 
-export default MainNav;
+export default SecondaryNav;

@@ -50,10 +50,14 @@
 }
 
 .button {
-    float: right;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: end;
 }
 
 .dropdown {
+    /* display: none; */
     color: #040F33;
 }
 
