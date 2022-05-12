@@ -23,7 +23,7 @@ const MainNav = () => {
     return (
         <div>
             <BrowserRouter>
-            <Navbar expand="lg">
+            <Navbar style={{ width: '100%' }} expand="lg">
                 <Container className={styles.navbar}>
                     <Navbar.Brand className={styles.logo}>
                         <div className={styles.logo}>
