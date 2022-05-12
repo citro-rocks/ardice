@@ -23,8 +23,8 @@ const MainNav = () => {
     return (
         <div>
             <BrowserRouter>
-            <Navbar className={styles.navbar} expand="lg">
-                <Container>
+            <Navbar expand="lg">
+                <Container className={styles.navbar}>
                     <Navbar.Brand className={styles.logo}>
                         <div className={styles.logo}>
                             <Link to="/home">
@@ -33,7 +33,7 @@ const MainNav = () => {
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse>
                         <Nav className={styles.links}>
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <NavDropdown title="Diensten" id="basic-nav-dropdown">

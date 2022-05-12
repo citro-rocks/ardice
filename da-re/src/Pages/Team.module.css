@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+.container {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3% 20% 3% 20%;
+}
+
+.container h1 {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    color: #EC6D00;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    color: #474747;
+    text-align: center;
+}
