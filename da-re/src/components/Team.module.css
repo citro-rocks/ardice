@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
 .team_section {
-    width: 100%;
-    display: block;
     max-width: 100%;
     height: fit-content;
     align-content: center;
     padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .team_container {

@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
 .contact_wrapper {
+    position: relative;
     background-image: url(../assets/contact-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5% 10% 5% 10%;
+    margin-top: 10%;
+    padding: 10% 10% 5% 10%;
     height: fit-content;
 }
 
